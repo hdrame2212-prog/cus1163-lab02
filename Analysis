@@ -1,0 +1,5 @@
+When we run the program it talks to the computer’s operating system using system calls. 
+"Listing processes" uses calls like opendir, readdir, and closedir to look inside the /proc folder. 
+Reading process info uses open, read, and close to get data from files about each process.  
+Showing system info with library functions like "fopen" and "fgets" makes fewer calls because the 
+computer reads bigger chunks at once. System calls make more calls comapred to libary calls which is faster and easier 
